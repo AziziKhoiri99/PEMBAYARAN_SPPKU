@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta charset="viewport" content="width-divice-width">
+        <title>Data Pembayaran SPP | Login</title>
+        <link rel="stylesheet" 
+              href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" 
+              integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" 
+              crossorigin="anonymous">
+        <style>
+            .bacot {
+                width: 400px;
+            }
+            .tolol {
+                margin-right: 240px;
+            }
+        </style>     
+    </head>
+    <body>
+        <form class="form-signin">
+        <br /><br />
+        <div class="text-center mb-4">
+            <img src="data:image/png;base64,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" 
+            class="rounded" alt="Responsive image" width="80px">
+            <br /><br />
+            <h1 class="h3 mb-3 font-weight-normal">LOGIN</h1>
+                <p>Silahkan untuk login terlebih dahulu 
+                   <br /><code>create-account</code>. 
+                   <a href="https://google.com">Works in latest 
+                   <br />Chrome, Safari, Firefox, and IE 10/11 (prefixed).</a></p>
+
+                   <div class="form-label-group container bacot">
+                    <input type="email" id="inputEmail" class="form-control" 
+                           placeholder="Email address" required autofocus>
+                    <label for="inputEmail"></label>
+                    <input type="password" id="inputPassword" class="form-control" 
+                           placeholder="Password" required>
+                    <label for="inputPassword"></label>
+                  </div>
+                <div class="checkbox mb-3 container bacot">
+                    <label class="tolol" >
+                      <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                    <br /><br />
+                     <button class="btn btn-lg btn-primary btn-block" type="submit">
+                         <a href="/data" class="text-white">Sign in</a></button>
+                  <p class="mt-5 mb-3 text-muted text-center">&copy; 2017-2020</p>   
+                  </div> 
+                  
+                  
+        </div>
+    </form>
+</body>
+</html>
